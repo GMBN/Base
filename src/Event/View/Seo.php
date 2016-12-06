@@ -1,6 +1,6 @@
 <?php
 
-namespace Base\Event\View;
+namespace LevBase\Event\View;
 
 class Seo {
 

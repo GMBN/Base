@@ -1,6 +1,6 @@
 <?php
 
-namespace Base;
+namespace LevBase;
 
 class Module {
 

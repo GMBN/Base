@@ -4,10 +4,10 @@ global $e;
 
 $e->on('preRender', function($dados, $view, $template) {
     if ($dados) {
-        $service = new \Base\Service\View();
+        $service = new \LevBase\Service\View();
         return $service->render($dados, $view, $template);
     }
 });
 
-new \Base\Event\View\Seo();
-new \Base\Event\View\Render();
+new \LevBase\Event\View\Seo();
+new \LevBase\Event\View\Render();

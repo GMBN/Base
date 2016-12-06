@@ -1,5 +1,5 @@
 {
-    "name" : "gmbn/base",
+    "name" : "gmbn/levbase",
     "description" : "Module root for Framework Levitron",
     "license": "MIT",
     "require" : {
@@ -14,7 +14,7 @@
     "keywords" : [ "event php ", "framework php","php", "module levitron", "levitron" ],
     "autoload" : {
         "psr-4" : {
-             "Base\\": "src/"
+             "LevBase\\": "src/"
         }
     }
 }
